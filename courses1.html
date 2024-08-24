@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online learning website</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!--inline CSS-->
+    <style>
+    body{
+       background-color:orange; 
+      
+     }
+    img{
+      border-radius:25px; 
+      padding:4px;
+    }
+    .navbar-brand{
+        color:white;
+    
+    }
+    .navbar-brand:hover{
+       color: rgb(255, 255, 255);
+    }
+    .nav-link{
+        color:white;
+    }
+    .nav-link:hover{
+       color: rgba(255, 255, 255, 0.676);
+    }
+
+    .bounce {
+    animation: bounce 2s infinite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size:67px;
+    margin-top:160px;
+    padding: 50px;
+
+  }
+/* Adding bounce animation to the heading*/
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+        
+
+.container {
+    text-align: center;
+    position: relative;
+    background-color: rgb(229, 235, 235);
+    padding:50px;
+    margin:30px;
+    border-radius:10px;
+}
+.head2{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:rgba(61, 4, 113, 0.767);
+  font-size: 25px;
+  padding:10px;
+}
+
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 2s ease-in;
+}
+
+.fade-in.show {
+    opacity: 1;
+}
+
+    </style>
+    </head>
+    <body>
+     
+        <!--creating navigation bar-->
+    <nav class="navbar navbar-expand-lg bg-dark border-body">
+        <div class="container-fluid">
+          <img src="ab6.img"  width="90" height="70">
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="home.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Courses
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">C</a></li>
+                  <li><a class="dropdown-item" href="#">Java</a></li>
+                  <li><a class="dropdown-item" href="#">Python</a></li>
+                  <li><a class="dropdown-item" href="#">Web Development</a></li>
+                </ul>
+              </li>
+            </ul>
+            </ul>
+          </div>
+        </div>
+      </nav> 
+    <!--navigation bar ends-->  
+
+        <h1 class="bounce">ONLINE COURSES</h1><br><br><br><br><br><br><br><br><br><br>
+
+        <div class="container">
+          <h2 class="head2">COURSES WE OFFER:</h2>
+          <p class="fade-in" id="para1">C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972.It is a very popular language, despite being old. The main reason for its popularity is because it is a fundamental language in the field of computer science.</p><br>
+
+          <p class="fade-in" id="para2">Java is a widely used high level , object oriented programming language that can be used to create many types of applications</p><br>
+
+          <p class="fade-in" id="para3">Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation</p><br>
+
+          <p class="fade-in" id="para4">There are several languages that are frequently used for web development.some of the most popular programming language for web development include HTML/CSS,PHP, Python, JavaScript,Java,Ruby,and Swift</p>
+      </div>
+         
+      <script src="javas.js"></script>
+       <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>   
+    </body>
+    </html>
